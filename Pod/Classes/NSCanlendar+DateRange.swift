@@ -45,6 +45,9 @@ public extension NSCalendar{
     return dateByAddingUnit(.Month, value: -1, toDate: date, options: [])!
   }
   
+  public func bx_prevWeekDate(date:NSDate) -> NSDate{
+    return dateByAddingUnit(.WeekOfYear, value: -1, toDate: date, options: [])!
+  }
   
   
 }
