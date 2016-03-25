@@ -13,6 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		78DCC4270CB646E81E61524D /* Pods_BXCalendarUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77633B59D0C33278550C0DE3 /* Pods_BXCalendarUtils_Tests.framework */; };
+		8E01B1E160B56CB96B8C40BF /* Pods_BXCalendarUtils_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896E9A7267C1EA97AA77034D /* Pods_BXCalendarUtils_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A48F42C57840E9BFE010183 /* BXCalendarUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = BXCalendarUtils.podspec; path = ../BXCalendarUtils.podspec; sourceTree = "<group>"; };
+		2A48F42C57840E9BFE010183 /* BXCalendarUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BXCalendarUtils.podspec; path = ../BXCalendarUtils.podspec; sourceTree = "<group>"; };
+		33BA40AAE2DA8B9FE8ABB208 /* Pods-BXCalendarUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXCalendarUtils_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXCalendarUtils_Tests/Pods-BXCalendarUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BXCalendarUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BXCalendarUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,8 +40,13 @@
 		607FACE51AFB9204008FA782 /* BXCalendarUtils_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BXCalendarUtils_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A73EEDF49171D54B663327F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6CAFF0E4D913F3BC58F00B47 /* Pods-BXCalendarUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXCalendarUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXCalendarUtils_Tests/Pods-BXCalendarUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		77633B59D0C33278550C0DE3 /* Pods_BXCalendarUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXCalendarUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		896E9A7267C1EA97AA77034D /* Pods_BXCalendarUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXCalendarUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A241D16FA7AC5B6B1C7B6F4 /* Pods-BXCalendarUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXCalendarUtils_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXCalendarUtils_Example/Pods-BXCalendarUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A73EEDF49171D54B663327F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C68C859D9C2907CCC60260A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F6A36FA938AD6467CB901F6B /* Pods-BXCalendarUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXCalendarUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXCalendarUtils_Example/Pods-BXCalendarUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E01B1E160B56CB96B8C40BF /* Pods_BXCalendarUtils_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78DCC4270CB646E81E61524D /* Pods_BXCalendarUtils_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for BXCalendarUtils */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
+				F191576C432490CE102291A5 /* Pods */,
+				B80E4404F364D6B218F7EE6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +139,26 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B80E4404F364D6B218F7EE6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				896E9A7267C1EA97AA77034D /* Pods_BXCalendarUtils_Example.framework */,
+				77633B59D0C33278550C0DE3 /* Pods_BXCalendarUtils_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F191576C432490CE102291A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6A36FA938AD6467CB901F6B /* Pods-BXCalendarUtils_Example.debug.xcconfig */,
+				9A241D16FA7AC5B6B1C7B6F4 /* Pods-BXCalendarUtils_Example.release.xcconfig */,
+				33BA40AAE2DA8B9FE8ABB208 /* Pods-BXCalendarUtils_Tests.debug.xcconfig */,
+				6CAFF0E4D913F3BC58F00B47 /* Pods-BXCalendarUtils_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BXCalendarUtils_Example" */;
 			buildPhases = (
+				7FE2C2253EE192EBE92E79BE /* Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				C1669AB49AFBBB2E42E100C5 /* Embed Pods Frameworks */,
+				EAB690B1E1BD2382AA993A45 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BXCalendarUtils_Tests" */;
 			buildPhases = (
+				F681C2C376CD5AB7A41DECB6 /* Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				3E02B9D07D788BCE883A6B8E /* Embed Pods Frameworks */,
+				5B31557CC71A3C27695F91CB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "BXCalendarUtils" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,6 +260,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E02B9D07D788BCE883A6B8E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXCalendarUtils_Tests/Pods-BXCalendarUtils_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B31557CC71A3C27695F91CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXCalendarUtils_Tests/Pods-BXCalendarUtils_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE2C2253EE192EBE92E79BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1669AB49AFBBB2E42E100C5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXCalendarUtils_Example/Pods-BXCalendarUtils_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAB690B1E1BD2382AA993A45 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXCalendarUtils_Example/Pods-BXCalendarUtils_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F681C2C376CD5AB7A41DECB6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
@@ -355,6 +486,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A36FA938AD6467CB901F6B /* Pods-BXCalendarUtils_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BXCalendarUtils/Info.plist;
@@ -367,6 +499,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A241D16FA7AC5B6B1C7B6F4 /* Pods-BXCalendarUtils_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BXCalendarUtils/Info.plist;
@@ -379,6 +512,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BA40AAE2DA8B9FE8ABB208 /* Pods-BXCalendarUtils_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -399,6 +533,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CAFF0E4D913F3BC58F00B47 /* Pods-BXCalendarUtils_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -416,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "BXCalendarUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
